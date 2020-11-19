@@ -42,7 +42,7 @@ const checkClick = function onImageClick (event) {
     return;
   }
   const imgRef = event.target;
-  const largeImgURL = imgRef.dataset.source;
+  const largeImgURL = imgRef.dataSource;
     openModal(largeImgURL);
     console.log(largeImgURL);
 }
