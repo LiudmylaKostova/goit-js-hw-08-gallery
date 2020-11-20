@@ -70,6 +70,7 @@ buttonCloseRef.addEventListener('click', (event) => {
 
 
 galleryRef.addEventListener('click', checkClick);
+buttonCloseRef.addEventListener('click', closeModal);
 
 
 
